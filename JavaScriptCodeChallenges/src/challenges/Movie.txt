@@ -1,0 +1,7 @@
+   Your task is to create a movie object that takes in three arguments:
+     -TITLE;
+     -DIRECTOR;
+     -GENRE. 
+   The movie prototype should have a function called get overview, which logs the following overview for each film:
+     -TITLE, GENRE film by DIRECTOR
+   You can use a function syntax to create your prototype. Once you create your Movie object, create at least one movie to test it out. 

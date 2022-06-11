@@ -1,0 +1,6 @@
+   In this challenge, you should use the array reduce function to calculate the following:
+    -Total bill from a trip with your friends to the coffee shop. More precisely, each person has ordered some number of coffees, and you offer to pay the entire bill.
+   So, given an array of integers with each value is greater than zero, calculate the total price of all coffees where each one costs $1.25
+   You should return your answer in the following format: 
+    -The total bill is {followed by the total}.
+   You should also use template literals (back ticks, etc.) for your return value.
