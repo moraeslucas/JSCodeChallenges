@@ -1,26 +1,51 @@
 # JavaScript Code Challenges
 
-A React web application that demonstrates core JavaScript concepts through five practical, real-world coding challenges. The project was built as hands-on practice alongside the **Code Challenges for JavaScript** course on LinkedIn Learning.
+A React web application that demonstrates core JavaScript concepts through five practical, real-world coding challenges. I built this project as a hands-on application, showing the techniques learned in the *Code Challenges for JavaScript* course on LinkedIn Learning.
 
 ![screenshot](./JS_Challenges.gif)
 
 ## Tech Stack
 
-- **React 17** (bootstrapped with Create React App)
-- **React Router DOM 6**
-- Plain JavaScript (ES6+)
+- **React** (bootstrapped with Create React App)
+- **React Router DOM**
+- JavaScript
 
 ## Challenges
 
-Each challenge is an interactive button in the UI that executes a snippet and displays the result inline.
+The challenges cover a range of JavaScript features, including array methods, timing functions, object-oriented programming, and more.
 
-| # | Challenge | JavaScript concept |
-|---|-----------|-------------------|
-| 01 | **Vegetarian dinner** – filters a menu to show only vegetarian options | `Array.filter()` |
-| 02 | **Ticking clock** – displays a live, updating clock | `setInterval`, `Date.toLocaleTimeString()` |
-| 03 | **Coffee calculations** – totals a coffee order and applies a 25% markup | `Array.reduce()`, template literals |
-| 04 | **Available books** – tracks book inventory and reports stock status | ES6 `class`, getters, default parameters |
-| 05 | **Movie object** – builds a movie record and generates a summary string | Constructor functions, prototype chain |
+<table style="width: 100%; border-collapse: collapse;">
+  <tr style="background-color: #f0f0f0;">
+    <th style="text-align: left; padding: 8px; border: 1px solid #ddd;">#</th>
+    <th style="text-align: left; padding: 8px; border: 1px solid #ddd;">Challenge</th>
+    <th style="text-align: left; padding: 8px; border: 1px solid #ddd;">JavaScript concept</th>
+  </tr>
+  <tr>
+    <td style="padding: 8px; border: 1px solid #ddd;">01</td>
+    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Vegetarian dinner</strong> – Menu showing vegetarian options</td>
+    <td style="padding: 8px; border: 1px solid #ddd;">e.g., <code>Array.filter()</code></td>
+  </tr>
+  <tr>
+    <td style="padding: 8px; border: 1px solid #ddd;">02</td>
+    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Ticking clock</strong> – displays a live, updating clock</td>
+    <td style="padding: 8px; border: 1px solid #ddd;"><code>setInterval</code>, <code>Date.toLocaleTimeString()</code></td>
+  </tr>
+  <tr>
+    <td style="padding: 8px; border: 1px solid #ddd;">03</td>
+    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Coffee calculations</strong> – totals a coffee order and applies a 25% markup</td>
+    <td style="padding: 8px; border: 1px solid #ddd;"><code>Array.reduce()</code>, template literals</td>
+  </tr>
+  <tr>
+    <td style="padding: 8px; border: 1px solid #ddd;">04</td>
+    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Available books</strong> – tracks book inventory and reports stock status</td>
+    <td style="padding: 8px; border: 1px solid #ddd;"><code>class</code>, getters, default parameters</td>
+  </tr>
+  <tr>
+    <td style="padding: 8px; border: 1px solid #ddd;">05</td>
+    <td style="padding: 8px; border: 1px solid #ddd;"><strong>Movie object</strong> – builds a movie record and generates a summary string</td>
+    <td style="padding: 8px; border: 1px solid #ddd;">Constructor functions, prototype chain</td>
+  </tr>
+</table>
 
 ## Getting Started
 
@@ -38,4 +63,4 @@ npm test
 
 ## Reference
 
-Based on the [Code Challenges for JavaScript](https://www.linkedin.com/learning/code-challenges-for-javascript) course on LinkedIn Learning.
+[Code Challenges for JavaScript](https://www.linkedin.com/learning) course on LinkedIn Learning.
